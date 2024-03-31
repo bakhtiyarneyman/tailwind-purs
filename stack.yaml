@@ -1,10 +1,11 @@
-resolver: lts-18.23
+resolver: lts-22.6
 
 packages:
 - .
 
 extra-deps:
-  - MissingH-1.4.3.0@sha256:32f9892ec98cd21df4f4d3ed8d95a3831ae74287ea0641d6f09b2dc6ef061d39,4859
-  - html-parse-0.2.0.2@sha256:4f4c1800d5630f94d26ec9c4d63bdba36d3d94cc047f13ef670e5be674982cab,3898
-  - twitch-0.1.7.2@sha256:146a887da4d2d21e489ff823a6058add40c1f9c5ee8e0d00356b497092c9c624,2988
+  - MissingH-1.6.0.1
+  - html-parse-0.2.1.0
+  - github: jfischoff/twitch
+    commit: bd6f68d7f11db1b0a12547bfc2b86f813cf6ef47
   - random-1.1@sha256:7b67624fd76ddf97c206de0801dc7e888097e9d572974be9b9ea6551d76965df,1777

@@ -5,36 +5,40 @@
 
 packages:
 - completed:
-    hackage: MissingH-1.4.3.0@sha256:32f9892ec98cd21df4f4d3ed8d95a3831ae74287ea0641d6f09b2dc6ef061d39,4859
+    hackage: MissingH-1.6.0.1@sha256:a388388df2f809d5a341164b6a4b5a6fea42a05aba215a4f34fa5b251400f823,4681
     pantry-tree:
-      size: 5271
-      sha256: 6cd6a7213615d72a7db3234c7fcd4346ceb4889bc8fb14b302b5878768018fcd
+      sha256: e7e0a575e5a559fea34c64a87ee50ad94b53d75768403c80b1633bbca58333c7
+      size: 5272
   original:
-    hackage: MissingH-1.4.3.0@sha256:32f9892ec98cd21df4f4d3ed8d95a3831ae74287ea0641d6f09b2dc6ef061d39,4859
+    hackage: MissingH-1.6.0.1
 - completed:
-    hackage: html-parse-0.2.0.2@sha256:4f4c1800d5630f94d26ec9c4d63bdba36d3d94cc047f13ef670e5be674982cab,3898
+    hackage: html-parse-0.2.1.0@sha256:d2f56693c5f45a5df902583e42ac0180f692e30b0e8c3c58c853a96b318ae8d0,4317
     pantry-tree:
-      size: 516
-      sha256: b8bb79ce57d2b22176a185f6aee0667f334361e358ac65e9738cbbf8e144cf25
+      sha256: a8c32c697f33b9b4ae16f2efcee9c029d5f12a84f378da1f529d5b48881b5754
+      size: 757
   original:
-    hackage: html-parse-0.2.0.2@sha256:4f4c1800d5630f94d26ec9c4d63bdba36d3d94cc047f13ef670e5be674982cab,3898
+    hackage: html-parse-0.2.1.0
 - completed:
-    hackage: twitch-0.1.7.2@sha256:146a887da4d2d21e489ff823a6058add40c1f9c5ee8e0d00356b497092c9c624,2988
+    name: twitch
     pantry-tree:
-      size: 1138
-      sha256: 7e4db8b9ef3e634e68d68155901a7c3affb873b3cf9a9dca4dcc0ebb4b6eb527
+      sha256: 6a7f22fe3916ef1ef1fc12ab25384f6f13394976a778db27107189a83602b2c5
+      size: 1910
+    sha256: aa09c0300c53a0b967be3c0dc0d5838a3f9209436b470943bc9f1ac0a33b2cde
+    size: 1988280
+    url: https://github.com/jfischoff/twitch/archive/bd6f68d7f11db1b0a12547bfc2b86f813cf6ef47.tar.gz
+    version: 0.2.0.0
   original:
-    hackage: twitch-0.1.7.2@sha256:146a887da4d2d21e489ff823a6058add40c1f9c5ee8e0d00356b497092c9c624,2988
+    url: https://github.com/jfischoff/twitch/archive/bd6f68d7f11db1b0a12547bfc2b86f813cf6ef47.tar.gz
 - completed:
     hackage: random-1.1@sha256:7b67624fd76ddf97c206de0801dc7e888097e9d572974be9b9ea6551d76965df,1777
     pantry-tree:
-      size: 637
       sha256: 14a1b01728c5584e87c9fa00746a66e28ffd89dd2c0eabd334c8463953496e1b
+      size: 637
   original:
     hackage: random-1.1@sha256:7b67624fd76ddf97c206de0801dc7e888097e9d572974be9b9ea6551d76965df,1777
 snapshots:
 - completed:
-    size: 587819
-    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/18/23.yaml
-    sha256: 7f69bb29a57495586e7e3ed31ecc59c0d2c959cb23bd52b71ca676f254c9beb1
-  original: lts-18.23
+    sha256: 1b4c2669e26fa828451830ed4725e4d406acc25a1fa24fcc039465dd13d7a575
+    size: 714100
+    url: https://raw.githubusercontent.com/commercialhaskell/stackage-snapshots/master/lts/22/6.yaml
+  original: lts-22.6
